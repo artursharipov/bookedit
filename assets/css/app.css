@@ -1,0 +1,20 @@
+ul.nav .nav-link {
+  font-size: 12px;
+  color: #a9a9a9;
+  text-align: center;
+  text-transform: uppercase; }
+  ul.nav .nav-link:hover {
+    text-decoration: none;
+    background-color: #545454; }
+  ul.nav .nav-link.active {
+    color: #414141;
+    font-weight: 600;
+    background-color: #fff; }
+ul.nav .nav-img {
+  width: 28px;
+  margin-bottom: 3px; }
+
+nav {
+  background-color: #414141; }
+
+/*# sourceMappingURL=app.css.map */

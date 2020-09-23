@@ -1,0 +1,29 @@
+$color-dark: #414141;
+$color-orange: #f7570f;
+
+ul.nav{
+    .nav-link{
+        font-size: 12px;
+        color: #a9a9a9;  
+        text-align: center;
+        text-transform: uppercase;
+        
+        &:hover{
+            text-decoration: none;
+            background-color: #545454;
+        }
+        &.active{
+            color: $color-dark;
+            font-weight: 600;
+            background-color: #fff;
+        }
+    }
+    .nav-img{
+        width: 28px;
+        margin-bottom: 3px;
+    }
+}
+
+nav{
+    background-color: $color-dark;
+}
